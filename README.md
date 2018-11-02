@@ -1,4 +1,4 @@
-# React simple form
+# React form (uncontrolled)
 
 *autor: Aral Roca <aral-rg@hotmail.com>*
 

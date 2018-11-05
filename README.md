@@ -1,14 +1,18 @@
 # React form (uncontrolled)
 
-![npm version](https://img.shields.io/badge/npm-v0.1.0-blue.svg) 
+![npm version](https://img.shields.io/badge/npm-v0.2.0-blue.svg) 
 
 *author: Aral Roca <aral-rg@hotmail.com>*
 
 -------------------
 
+3kb library to do the forms much simpler without state. Do you have all the fields inside the onSubmit function. Also you don't need to preventDefault and trim string fields, you can directly start working with fields.
+
 ## Install
 
 * `npm install react-form-uncontrolled --save`
+
+*The last version is using React hooks (experimental in React 16.7) under the hood, because functional components minify much better than classes. If you want compatibility with React 16.6 you can use `react-form-uncontrolled@0.1.0` version*
 
 ## Usage
 

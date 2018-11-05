@@ -1,6 +1,6 @@
 {
   "name": "react-form-uncontrolled",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Uncontrolled form in a simple way",
   "author": "Aral Roca Gomez <aral-rg@hotmail.com>",
   "main": "build/index.js",
@@ -32,7 +32,7 @@
   },
   "dependencies": {
     "prop-types": "15.6.2",
-    "react": "16.6.0",
-    "react-dom": "16.6.0"
+    "react": "16.7.0-alpha.0",
+    "react-dom": "16.7.0-alpha.0"
   }
 }

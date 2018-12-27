@@ -1,6 +1,6 @@
 # React form (uncontrolled)
 
-![npm version](https://img.shields.io/badge/npm-v0.2.0-blue.svg) 
+![npm version](https://img.shields.io/badge/npm-v0.3.0-blue.svg) 
 
 *author: Aral Roca <aral-rg@hotmail.com>*
 
@@ -23,22 +23,61 @@ function SignIn(props){
  return (
     <Form onSubmit={props.onSignIn}>
 
-      <div>
+      <label htmlFor="username">
+        <div>Username</div>
         <input
-          required
-          name="username"
           type="text"
-          placeholder={userNamePlaceholder}
+          required
+          id="username"
+          name="username"
+          placeholder="Write here the username"
         />
-      </div>
+      </label>
 
-      <div>
+      <label htmlFor="password">
+        <div>Password</div>
         <input
-          name="password"
           type="password"
-          placeholder={passwordPlaceholder}
+          required
+          id="password"
+          name="password"
+          placeholder="Write here the password"
         />
-      </div>
+      </label>
+
+      <button type="submit">
+         Sign In
+      </button>
+  </Form>
+  )
+}
+```
+
+or:
+
+
+```js
+import { Form, Input } from 'react-form-uncontrolled'
+
+function SignIn(props){
+ return (
+    <Form onSubmit={props.onSignIn}>
+
+      <Input 
+        label="Username"
+        name="username"
+        type="text"
+        required
+        placeholder="Write here the username"
+      />
+
+      <Input 
+        label="Password"
+        name="password"
+        type="password"
+        required
+        placeholder="Write here the password"
+      />
 
       <button type="submit">
          Sign In

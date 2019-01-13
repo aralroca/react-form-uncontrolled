@@ -1,6 +1,6 @@
 # React form (uncontrolled)
 
-![npm version](https://img.shields.io/badge/npm-v0.3.0-blue.svg) 
+![npm version](https://img.shields.io/badge/npm-v0.3.2-blue.svg) 
 
 *author: Aral Roca <aral-rg@hotmail.com>*
 

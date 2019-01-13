@@ -6,7 +6,7 @@
 
 -------------------
 
-1.7kb library to do the forms much simpler without state. Do you have all the fields inside the onSubmit function. Also you don't need to preventDefault and trim string fields, you can directly start working with fields.
+Less than 1kb library to do the forms much simpler without state. Do you have all the fields inside the onSubmit function. Also you don't need to preventDefault and trim string fields, you can directly start working with fields.
 
 ## Install
 
